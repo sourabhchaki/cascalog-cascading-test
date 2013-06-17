@@ -17,7 +17,7 @@ public class CascadingTestInJcascalog {
 
     public void findMapping(int depth) {
         Fields fields = new Fields("line");
-        Lfs lfs = new Lfs(new TextLine(fields), "src/main/resources/input.txt");
+        Lfs lfs = new Lfs(new TextLine(fields), "input.txt");
 
         Subquery input = new Subquery("?node", "?mappingNode").predicate(lfs, "?line").predicate(new FieldExtractor(),
                 "?node", "?mappingNode");
