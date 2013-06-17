@@ -1,7 +1,8 @@
 # cascalog-cascading-test
 
 
-This a simple test to check cascading flow preparation/compilation time.
+- This is a simple test to check cascading flow preparation/compilation time. 
+- This also an example of running jcascalog as a simple java program using maven instead of Leiningen.
 
 # Execution Steps:
 
@@ -17,7 +18,7 @@ This a simple test to check cascading flow preparation/compilation time.
 * [depth] = depth is integer. This signifies the number of selfjoin. For each depth cascading creates 2 jobs. Thus by increasing depth we can test the preparation time for multiple cascading jobs
 
 
-# For example 
+# Performance Stats: 
 
 Depth 5, Jobs 10, Preparation time: less that 1 sec
 ---------------------------------------------------
