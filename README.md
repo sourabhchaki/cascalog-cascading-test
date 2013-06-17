@@ -19,6 +19,7 @@ This a simple test to check cascading flow preparation/compilation time.
 # For example 
 
 Depth 5, Jobs 10, Preparation time: less that 1 sec
+---------------------------------------------------
 
 
     `java -cp cascalog-cascading-test-1.0.1-CR-SNAPSHOT.jar:/usr/local/hadoop/hadoop-core-0.20.2-cdh3u4.jar:/usr/local/hadoop/lib/* com.home.test.CascadingTestInJcascalog 5 /var/tmp/input.txt`
@@ -33,6 +34,7 @@ Log:
 
 
 Depth 10, Jobs 20 , Preparation time: 15 mins.
+----------------------------------------------
 
      java -cp cascalog-cascading-test-1.0.1-CR-SNAPSHOT.jar:/usr/local/hadoop/hadoop-core-0.20.2-cdh3u4.jar:/usr/local/hadoop/lib/* com.home.test.CascadingTestInJcascalog 10 /var/tmp/input.txt
 
