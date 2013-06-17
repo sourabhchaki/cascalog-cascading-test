@@ -15,9 +15,9 @@ import com.twitter.maple.tap.StdoutTap;
 
 public class CascadingTestInJcascalog {
 
-    public void findMapping(int depth) {
+    public void findMapping(int depth,String path) {
         Fields fields = new Fields("line");
-        Lfs lfs = new Lfs(new TextLine(fields), "input.txt");
+        Lfs lfs = new Lfs(new TextLine(fields), path);
 
         Subquery input = new Subquery("?node", "?mappingNode").predicate(lfs, "?line").predicate(new FieldExtractor(),
                 "?node", "?mappingNode");
@@ -56,8 +56,9 @@ public class CascadingTestInJcascalog {
     
     public static void main(String[] args) {
         int depth = Integer.parseInt(args[0]);
+        String path = args[1];
         CascadingTestInJcascalog cascadingTestInJcascalog = new CascadingTestInJcascalog();
-        cascadingTestInJcascalog.findMapping(depth);
+        cascadingTestInJcascalog.findMapping(depth,path);
 
     }
 
