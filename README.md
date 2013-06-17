@@ -2,7 +2,7 @@
 
 
 - This is a simple test to check cascading flow preparation/compilation time. Observarion here: Cascading job preparation time is increasing in non linear fashion as number of jobs increases.
-- This also an example of running jcascalog as a simple java program using maven instead of Leiningen.
+- This is also an example of running jcascalog as a simple java program using maven instead of Leiningen.
 
 # Execution Steps:
 
