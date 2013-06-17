@@ -24,11 +24,12 @@ java -cp cascalog-cascading-test-1.0.1-CR-SNAPSHOT.jar:/usr/local/hadoop/hadoop-
 
 * Log:
 
-[17/06/2013:02:58:06 PDT] [INFO] [cascading.property.AppProps main]: using app.id: 76BDB0F921D8DEDD2F11BE3156A48984
-[17/06/2013:02:58:06 PDT] [INFO] [cascading.util.Version flow]: Concurrent, Inc - Cascading 2.0.0
-[17/06/2013:02:58:06 PDT] [INFO] [cascading.flow.Flow flow]: [] starting
-......
-[17/06/2013:02:58:06 PDT] [INFO] [cascading.flow.Flow flow]: []  starting jobs: 10
+
+    [17/06/2013:14:13:19 IST] [INFO] [cascading.property.AppProps main]: using app.id: FC106638099703F5450E89B08BB7442F
+    [17/06/2013:14:13:20 IST] [INFO] [cascading.util.Version flow]: Concurrent, Inc - Cascading 2.0.0
+    [17/06/2013:14:13:20 IST] [INFO] [cascading.flow.Flow flow]: [] starting
+    ......
+    [17/06/2013:14:13:20 IST] [INFO] [cascading.flow.Flow flow]: []  starting jobs: 10
 
 
 * Depth 10, Jobs 20 , Preparation time: 15 mins.
@@ -38,11 +39,11 @@ java -cp cascalog-cascading-test-1.0.1-CR-SNAPSHOT.jar:/usr/local/hadoop/hadoop-
 * Log:
 
 
-[17/06/2013:14:14:50 IST] [INFO] [cascading.property.AppProps main]: using app.id: 264A79523E9A9AF21EB04D2814FBCF9F
-[17/06/2013:14:29:54 IST] [INFO] [cascading.util.Version flow]: Concurrent, Inc - Cascading 2.0.0
-[17/06/2013:14:29:54 IST] [INFO] [cascading.flow.Flow flow]: [] starting
-.....
-[17/06/2013:14:29:54 IST] [INFO] [cascading.flow.Flow flow]: []  starting jobs: 20
+    [17/06/2013:14:14:50 IST] [INFO] [cascading.property.AppProps main]: using app.id: 264A79523E9A9AF21EB04D2814FBCF9F
+    [17/06/2013:14:29:54 IST] [INFO] [cascading.util.Version flow]: Concurrent, Inc - Cascading 2.0.0
+    [17/06/2013:14:29:54 IST] [INFO] [cascading.flow.Flow flow]: [] starting
+    .....
+    [17/06/2013:14:29:54 IST] [INFO] [cascading.flow.Flow flow]: []  starting jobs: 20
 
 
 
