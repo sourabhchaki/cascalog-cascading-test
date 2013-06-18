@@ -51,4 +51,4 @@ Log:
 As per the stats, job preparation time for cascading is increasing in a non linear fashion.
 
 
-
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/72146bbc080b7dbec5eb832234a59719 "githalytics.com")](http://githalytics.com/sourabhchaki/cascalog-cascading-test)
